@@ -113,9 +113,6 @@ public static void main(String[] args) throws InterruptedException  {
 	//eAuction End Date & Time
 	Thread.sleep(5000);
 	driver.findElement(By.xpath("//form[@id='tenderDtBean']//input[@id='txtAuctionEndDate']")).click();
-	//WebDriverWait wait =new WebDriverWait(driver,20 );
-	//wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//form[@id='tenderDtBean']//input[@id='txtAuctionEndDate']")));
-	//WebElement endDate = driver.findElement);
 	Thread.sleep(5000);
 
 	driver.findElement(By.xpath("//div[@class='datepicker-days']//tr[3]//td[text()='17']")).click();
